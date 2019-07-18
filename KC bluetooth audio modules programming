@@ -1,0 +1,19 @@
+KC BT-EMMIT2-MIC etc
+
+
+
+User upgrade Bluetooth name description
+The method of use is as follows: Mainly divided into 3 steps. ---- This feature is called local upgrade function
+First, open the software "BT_CONFIG_.exe"
+First click "OpenFile", import "bt_cfg.bin" under the same level directory and then modify it as follows
+1. Change the “123” in the above picture to the Bluetooth name you want. Note that it cannot be Chinese characters or too long.
+2. After the modification is completed, click “SaveFile”, and a “bt_cfg.bin” file will be generated before the replacement.
+Second, then double-click the "make_bfu_file.bat" batch process on the line
+A "jl_690x.bfu" will be generated, this is an upgrade file.
+Third, finally copy the upgraded upgrade file into the U disk or TF card upgrade.
+1. Just like the way we upgrade the program, the board must work properly.
+2, pay attention to the U disk or TF card device must have at least 2 mp3 files
+3. If you connect a speaker or a headset, the upgrade is successful.
+4, this upgrade time is basically less than 10S, if it is fast, it is 2 seconds.
+5, pay attention to modify the name, be sure to clear the name of the last search of the mobile phone, and then search again
+
